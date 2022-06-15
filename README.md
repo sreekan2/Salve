@@ -6,3 +6,4 @@ Clone the repository into your local machine and run the .net web API appplicati
 
 open the Angular application separately using VS code and run ng serve to start the Angulat application.
 
+Salve folder is the one with Angular application.
