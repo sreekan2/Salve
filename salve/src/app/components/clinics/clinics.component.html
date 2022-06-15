@@ -1,0 +1,14 @@
+<div>
+  <h1>Clinics List</h1>
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let clinic of clinics">
+      <div class="card">
+        <div class="card-body">
+          <a routerLink="patients/{{ clinic.id }}" class="btn btn-primary">{{
+            clinic.name
+          }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
